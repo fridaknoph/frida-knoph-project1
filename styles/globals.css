@@ -1,0 +1,169 @@
+body {
+  background-color: #F2F2F2;
+  font-family: "bilo";
+  margin: 0px;
+}
+
+.h2 {
+  font-family: "haboro-contrast-normal";
+  font-weight: normal;
+  font-size: 35px;
+}
+
+
+
+.h1 {
+  font-family: "haboro-contrast-normal";
+  font-weight: normal;
+  font-size: 35px;
+}
+
+
+.img__wrapper {
+  box-sizing: content-box;
+  
+}
+
+.img__wrapper > div {
+  -webkit-box-shadow: 1px 2px 3px 0px rgb(21, 21, 21);
+  -moz-box-shadow: 1px 2px 3px 0px rgb(114, 114, 114);
+  box-shadow: 1px 2px 3px 0px rgb(43, 34, 34);
+}
+
+
+.hotels__h1 {
+  font-family: "haboro-contrast-normal";
+  font-weight: normal;
+  font-size: 35px;
+  text-align: center;
+}
+
+.a__link {
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.hotels__name {
+  text-decoration: none;
+  font-family: "bilo";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center
+}
+
+.hotels__row {
+  flex-direction: column;
+  display: flex;
+  align-self: center;
+}
+
+
+.main__container {
+  flex-direction: column;
+  background-color: #E8E8E8;
+  display: flex;
+  max-width: 850px;
+  padding: 20px 20px 90px 20px;
+  margin: auto;
+  -webkit-box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+  -moz-box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+  box-shadow: 1px 2px 3px 0px rgba(209,209,209,1);
+}
+
+.nav__row {
+  background-color: #DFE2FA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  padding-bottom: 10px;
+   
+}
+
+.logo {
+  font-family: "acier-bat-solid";
+  color: black;
+  letter-spacing: 5px;
+}
+
+.nav__logo {
+  font-family: "acier-bat-solid";
+  color: #ffffff;
+}
+
+.nav__links__row {
+  display: flex;
+  gap: 10px;
+  column-gap: 80px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav__links {
+  display: flex;
+  gap: 10px;
+}
+
+
+.nav__search {
+  display: flex;
+  column-gap: 10px;
+  
+}
+
+input {
+  border-color: 1px #C9C9C9;
+  font-family: "bilo";
+  font-style: italic;
+
+}
+
+form {
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+.form__input {
+  display: flex;
+  padding: 5px;
+  width: 500px;
+  border-color: #CCD2FD;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.form__input__message {
+  padding: 5px 5px 50px 5px;
+  display: flex;
+  width: 500px;
+  border-color: #CCD2FD;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.default__button {
+  margin-top: 10px;
+  padding: 5px 40px 5px 40px;
+  background-color: #20416D;
+  color: #ffffff;
+  border-color: 1px solid #5B647C;
+
+}
+
+
+.nav__row__footer {
+  background-color: #DFE2FA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  padding: 50px 10px 50px 10px;
+   
+}
